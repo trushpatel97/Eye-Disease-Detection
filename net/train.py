@@ -295,3 +295,4 @@ def create_model_graph(model_info, model_dir):
           model_info["resized_input_tensor_name"],
         ]))
   return graph, bottleneck_tensor, resized_input_tensor
+
